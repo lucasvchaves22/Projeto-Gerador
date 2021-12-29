@@ -8,12 +8,18 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #ff8a0f;
+  background-image: url("./img/consorcio-magalu.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+
+  width: 100%;
+  height: 100vh;
 }
 
 #main {
-    top: 10px;
-    width: 700px;
+    width: auto;
     height: auto;
     padding: 10px;
     box-shadow: 0.5em 0.5em 0.8em,
@@ -24,7 +30,7 @@ body {
 
 #gerar {
     padding: 10px;
-    width: 100%;
+    width: auto;
     border: 1px solid rgb(253, 253, 253);
     background: #ffffff;
     border-radius: 5px;
@@ -32,7 +38,7 @@ body {
 
 #gerar1 {
     padding: 10px;
-    width: 100%;
+    width: auto;
     border: 1px solid rgb(0, 0, 0);
     background: #e6e6e681;
     border-radius: 5px;
@@ -52,21 +58,4 @@ body {
 .linha-p {
     width: 100%;
     border: 1px solid rgb(0, 0, 0);
-}
-
-#footer {
-color: #fff;
-font-size: 12px;
-position: fixed;
-bottom: 0;
-width: 100%;
-height: 20px;
-z-index: 9999;
-background-color: #0d5abe;
-transition: .3s;
-}
-
-.gerador {
-    padding: 10px;
-    display: block;
 }
