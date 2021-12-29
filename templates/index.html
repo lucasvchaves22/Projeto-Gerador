@@ -14,19 +14,17 @@
 
 <body>
     <main id="main">
-        <section  class="text-center">
+        <section  class="text-center gerador">
             <img src="../static/img/consorcio.png" alt="Logo Consorcio Magalu">
             <h1>Gerador de Senhas - Interno</h1>
             <div class="senhas mt-4 gerador">
-                <form action="/gerar" method="POST">
+                <form action="/gerar" method="POST" class="sec">
                     <div class="form-group">
                         <label id="gerar">Gere uma senha no botão abaixo</label>
                     </div>
                     <button type="submit" class="btn btn-primary">Gerar uma senha</button>
                 </form>
-                <div class="linha"></div>
-                <div class="linha"></div>
-                <form action="/criptografar" method="POST">
+                <form action="/criptografar" method="POST" class="sec">
                     <div class="form-group center">
                         <label id="gerar">Ou Criptografe sua senha abaixo</label>
                         <input name="senha" type="text" class="form-control"
